@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="USER_HOME" value="C:\\Users\\emi\\git\\despegar-logs" />
+
+	
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>
+				%d{yyyy-MM-dd HH:mm:ss} - %msg%n
+			</Pattern>
+		</layout>
+	</appender>
+	
+	<appender name="LOG-FILE-DESPEGAR-STAT" class="ch.qos.logback.core.FileAppender">
+		<file>${USER_HOME}/${log.name}.stats.txt</file>
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} -
+				%msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<appender name="LOG-FILE-DESPEGAR-ERR" class="ch.qos.logback.core.FileAppender">
+		<file>${USER_HOME}/${log.name}.err.txt</file>
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} -
+				%msg%n</pattern>
+		</encoder>
+	</appender>
+
+<!-- [%thread] %-5level %logger{35} - -->
+	<appender name="LOG-FILE-DESPEGAR" class="ch.qos.logback.core.FileAppender">
+		<file>${USER_HOME}/${log.name}</file>
+		<encoder>
+			<pattern>%msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<logger name="com.despegar.app.Application" level="info" additivity="false">
+		<appender-ref ref="LOG-FILE-DESPEGAR-STAT" />
+		<appender-ref ref="STDOUT"/>
+	</logger>
+
+
+	<logger name="com.despegar.app.LogBuilder" level="info" additivity="false">
+		<appender-ref ref="LOG-FILE-DESPEGAR" />
+		<appender-ref ref="STDOUT"/>
+	</logger>
+
+	<logger name="com.despegar.app.LogProcessor" level="info" additivity="false">
+		<appender-ref ref="LOG-FILE-DESPEGAR-ERR" />
+		<appender-ref ref="STDOUT"/>
+	</logger>
+
+
+	<logger name="org.springframework" level="warn" additivity="false">
+		<appender-ref ref="LOG-FILE-DESPEGAR-STAT" />
+	</logger>
+
+	<root level="info">
+		<appender-ref ref="LOG-FILE-DESPEGAR" />
+		<appender-ref ref="LOG-FILE-DESPEGAR-STAT" />
+		<appender-ref ref="LOG-FILE-DESPEGAR-ERR" />
+		<appender-ref ref="STDOUT"/>
+	</root>
+	
+	
+
+</configuration>

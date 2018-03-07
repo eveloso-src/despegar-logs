@@ -1,0 +1,68 @@
+2018-02-24 22:29:32.053 [main] INFO  com.despegar.app.Application -
+				Starting Application on DESKTOP-9T0NFQA with PID 5544 (C:\Users\emi\git\despegar-logs\target\classes started by emi in C:\Users\emi\git\despegar-logs)
+2018-02-24 22:29:32.058 [main] INFO  com.despegar.app.Application -
+				No active profile set, falling back to default profiles: default
+2018-02-24 22:29:37.895 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:37.925 [main] INFO  com.despegar.app.Application -
+				Active thread: 1
+2018-02-24 22:29:37.926 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:37.926 [main] INFO  com.despegar.app.Application -
+				Steal 0
+2018-02-24 22:29:38.426 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:38.426 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:38.426 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:38.426 [main] INFO  com.despegar.app.Application -
+				Steal 2
+2018-02-24 22:29:38.926 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:38.926 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:38.926 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:38.926 [main] INFO  com.despegar.app.Application -
+				Steal 2
+2018-02-24 22:29:39.428 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:39.428 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:39.428 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:39.429 [main] INFO  com.despegar.app.Application -
+				Steal 2
+2018-02-24 22:29:39.929 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:39.929 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:39.929 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:39.929 [main] INFO  com.despegar.app.Application -
+				Steal 2
+2018-02-24 22:29:40.429 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:40.430 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:40.431 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:40.432 [main] INFO  com.despegar.app.Application -
+				Steal 2
+2018-02-24 22:29:40.936 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:40.936 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:40.937 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:40.937 [main] INFO  com.despegar.app.Application -
+				Steal 2
+2018-02-24 22:29:41.437 [main] INFO  com.despegar.app.Application -
+				Parallelism: 2
+2018-02-24 22:29:41.438 [main] INFO  com.despegar.app.Application -
+				Active thread: 0
+2018-02-24 22:29:41.439 [main] INFO  com.despegar.app.Application -
+				Queued task: 0
+2018-02-24 22:29:41.439 [main] INFO  com.despegar.app.Application -
+				Steal 2

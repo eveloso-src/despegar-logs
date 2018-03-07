@@ -1,0 +1,28 @@
+2018-02-24 22:29:37.942 [ForkJoinPool-1-worker-1] ERROR com.despegar.app.LogProcessor -
+				Linea descartada: 2013-10-23T10:12:35.998Z 2013-10-23T10:12:36Z 7pcahxgp service4 dhbwylzy->ocg5gicl
+2018-02-24 22:29:38.013 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas leidas: 100
+2018-02-24 22:29:38.205 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas remanentes: 36
+2018-02-24 22:29:38.205 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas depuradas: 0
+2018-02-24 22:29:38.247 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas leidas: 100
+2018-02-24 22:29:38.289 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas remanentes: 30
+2018-02-24 22:29:38.289 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas depuradas: 0
+2018-02-24 22:29:38.313 [ForkJoinPool-1-worker-1] ERROR com.despegar.app.LogProcessor -
+				Linea descartada: 2013-10-23T10:12:56Z 2013-10-23T10:12:56.186Z sjtmerrs service9 ri75dkbg->h65oxcpa
+2018-02-24 22:29:38.360 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas leidas: 100
+2018-02-24 22:29:38.380 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas remanentes: 27
+2018-02-24 22:29:38.381 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas depuradas: 0
+2018-02-24 22:29:38.404 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas leidas: 87
+2018-02-24 22:29:38.416 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas remanentes: 13
+2018-02-24 22:29:38.417 [ForkJoinPool-1-worker-1] INFO  com.despegar.app.LogProcessor -
+				lineas depuradas: 0
